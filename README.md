@@ -93,7 +93,7 @@ Calculadora/
 
 2. **Construir y ejecutar los contenedores**
    ```bash
-   docker-compose up --build
+   docker compose up --build
    ```
 
 3. **Acceder a la aplicación**
