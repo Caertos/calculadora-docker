@@ -104,16 +104,16 @@ Calculadora/
 
 ```bash
 # Ejecutar en segundo plano
-docker-compose up -d
+docker compose up -d
 
 # Ver logs
-docker-compose logs
+docker compose logs
 
 # Detener servicios
-docker-compose down
+docker compose down
 
 # Reconstruir imágenes
-docker-compose build --no-cache
+docker compose build --no-cache
 ```
 
 ## 💡 Uso
