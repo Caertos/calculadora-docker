@@ -253,7 +253,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 👨‍💻 Autor
 
-**Tu Nombre**
+**Carlos Enrique Cochero Ramos**
 - GitHub: [@Caertos](https://github.com/Caertos)
 
 ---
