@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Calculator";
+  src: url("./Calculator.ttf") format("truetype");
+  font-display: swap;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  position: relative;
+  border: 2px solid #9f9f9f;
+  background-color: #9f9f9f;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  height: fit-content;
+}
+
+#display {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: rgba(201, 201, 61, 0.3);
+  font-family: "Calculator", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
